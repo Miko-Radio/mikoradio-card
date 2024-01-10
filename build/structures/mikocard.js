@@ -154,7 +154,9 @@ class mikocard {
             // Daftar URL gambar yang dapat dipilih secara acak
             const imageUrls = [
                 "https://status.mikoradio.com/cdn/mikocard/theme1/1.png",
+                "https://status.mikoradio.com/cdn/mikocard/theme2/1.png",
                 "https://status.mikoradio.com/cdn/mikocard/theme1/2.png",
+                "https://status.mikoradio.com/cdn/mikocard/theme2/2.png",
             ];
 
             // Fungsi untuk memilih URL gambar secara acak
