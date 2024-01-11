@@ -155,8 +155,16 @@ class mikocard {
             const imageUrls = [
                 "https://status.mikoradio.com/cdn/mikocard/theme1/1.png",
                 "https://status.mikoradio.com/cdn/mikocard/theme2/1.png",
+                "https://status.mikoradio.com/cdn/mikocard/theme1/3.png",
+                "https://status.mikoradio.com/cdn/mikocard/theme1/4.png",
                 "https://status.mikoradio.com/cdn/mikocard/theme1/2.png",
                 "https://status.mikoradio.com/cdn/mikocard/theme2/2.png",
+                "https://status.mikoradio.com/cdn/mikocard/theme2/3.png",
+                "https://status.mikoradio.com/cdn/mikocard/theme2/4.png",
+                "https://status.mikoradio.com/cdn/mikocard/theme2/5.png",
+                "https://status.mikoradio.com/cdn/mikocard/theme2/6.png",
+                "https://status.mikoradio.com/cdn/mikocard/theme2/7.png",
+
             ];
 
             // Fungsi untuk memilih URL gambar secara acak
