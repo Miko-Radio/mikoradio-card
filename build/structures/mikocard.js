@@ -195,8 +195,6 @@ class mikocard {
                 "https://status.mikoradio.com/cdn/mikocard/theme2/5.png",
                 "https://status.mikoradio.com/cdn/mikocard/theme2/6.png",
                 "https://status.mikoradio.com/cdn/mikocard/theme2/7.png",
-                
-
             ];
 
             // Fungsi untuk memilih URL gambar secara acak
