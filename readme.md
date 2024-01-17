@@ -45,4 +45,4 @@ https://github.com/a3pire
 # Projects
 |  Sr.  |            Name            |  Platform  |
 |:-----:|:--------------------------:|:----------:|
-| **1** | [Mewwme's Music](https://discord.com/api/oauth2/authorize?client_id=928711702596423740&permissions=2184571952&scope=bot%20applications.commands) | discord.js |
+| **1** | [Miko Radio](https://discord.com/oauth2/authorize?response_type=code&client_id=1176036435523022969&scope=guilds.join%20bot%20applications.commands&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2FYZR9YF96Fs) | discord.js |
