@@ -3,7 +3,7 @@
 
 # __Installation__
 ```
-npm install git+https://github.com/Miko-Radio/mikoradio-card/tree/main?tab=readme-ov-file
+npm install git+https://github.com/Miko-Radio/mikoradio-card
 ```
 
 # __Example__
