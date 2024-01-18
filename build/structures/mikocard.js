@@ -84,7 +84,7 @@ class mikocard {
         if (!this.color) this.setColor('ff0000');
         if (!this.theme) this.setTheme('classic');
         if (!this.brightness) this.setBrightness(0);
-        if (!this.thumbnail) this.setThumbnail('https://s6.imgcdn.dev/Opo4a.jpg');
+        if (!this.thumbnail) this.setThumbnail('https://raw.githubusercontent.com/Miko-Radio/cdn/main/mikocard/default-thumbnail.png');
         if (!this.progress) this.setProgress(0);
         if (!this.starttime) this.setStartTime('0:00');
         if (!this.endtime) this.setEndTime('0:00');
@@ -225,9 +225,9 @@ class mikocard {
                 // Mengatasi kesalahan ketika gambar tidak dapat dimuat
                 console.error('MUSICARD: Thumbnail image failed to load, not supported');
                 if (!this.thumbnail) {
-                    this.setThumbnail('https://status.mikoradio.com/cdn/mikocard/theme1/2.png');
+                    this.setThumbnail('https://raw.githubusercontent.com/Miko-Radio/cdn/main/mikocard/default-thumbnail.png');
                 }
-                thumbnailImage = await canvas.loadImage(`https://status.mikoradio.com/cdn/mikocard/theme1/2.png`); // Gunakan gambar default atau URL alternatif
+                thumbnailImage = await canvas.loadImage(`https://raw.githubusercontent.com/Miko-Radio/cdn/main/mikocard/default-thumbnail.png`); // Gunakan gambar default atau URL alternatif
             }
 
             const thumbnailSize = Math.min(thumbnailImage.width, thumbnailImage.height);

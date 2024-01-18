@@ -11,7 +11,7 @@ export declare class mikocard {
   public setName(name: string): this;
   public setAuthor(author: string): this;
   public setColor(color: string): this;
-  public setTheme(theme: "classic"): this;
+  public setTheme(theme: string | "classic"): this;
   public setBrightness(brightness: number): this;
   public setThumbnail(thumbnail: string): this;
   public setRequester(requester: string): this;
