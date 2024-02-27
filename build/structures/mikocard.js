@@ -84,7 +84,7 @@ class mikocard {
         if (!this.color) this.setColor('ff0000');
         if (!this.theme) this.setTheme('classic');
         if (!this.brightness) this.setBrightness(0);
-        if (!this.thumbnail) this.setThumbnail('https://raw.githubusercontent.com/Miko-Radio/cdn/main/mikocard/default-thumbnail.png');
+        if (!this.thumbnail) this.setThumbnail('https://miko-radio.github.io/cdn/mikocardmikocard/default-thumbnail.png');
         if (!this.progress) this.setProgress(0);
         if (!this.starttime) this.setStartTime('0:00');
         if (!this.endtime) this.setEndTime('0:00');
@@ -153,48 +153,48 @@ class mikocard {
 
             // Daftar URL gambar yang dapat dipilih secara acak
             const imageUrls = [
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/1.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/2.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/3.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/4.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/5.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/6.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/7.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/8.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/9.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/10.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/11.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/12.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/13.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/14.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/15.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/16.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/17.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/18.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/19.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/20.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/21.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/22.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/23.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/24.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/25.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/26.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/27.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/28.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/29.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/30.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/31.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/32.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/33.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/34.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme1/35.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme2/1.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme2/2.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme2/3.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme2/4.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme2/5.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme2/6.png",
-                "https://raw.githubusercontent.com/Miko-Radio/cdn/main//mikocard/theme2/7.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/1.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/2.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/3.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/4.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/5.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/6.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/7.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/8.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/9.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/10.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/11.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/12.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/13.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/14.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/15.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/16.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/17.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/18.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/19.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/20.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/21.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/22.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/23.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/24.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/25.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/26.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/27.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/28.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/29.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/30.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/31.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/32.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/33.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/34.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme1/35.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme2/1.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme2/2.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme2/3.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme2/4.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme2/5.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme2/6.png",
+                "https://miko-radio.github.io/cdn/mikocard/theme2/7.png",
             ];
 
             // Fungsi untuk memilih URL gambar secara acak
@@ -225,9 +225,9 @@ class mikocard {
                 // Mengatasi kesalahan ketika gambar tidak dapat dimuat
                 console.error('MUSICARD: Thumbnail image failed to load, not supported');
                 if (!this.thumbnail) {
-                    this.setThumbnail('https://raw.githubusercontent.com/Miko-Radio/cdn/main/mikocard/default-thumbnail.png');
+                    this.setThumbnail('https://miko-radio.github.io/cdn/mikocardmikocard/default-thumbnail.png');
                 }
-                thumbnailImage = await canvas.loadImage(`https://raw.githubusercontent.com/Miko-Radio/cdn/main/mikocard/default-thumbnail.png`); // Gunakan gambar default atau URL alternatif
+                thumbnailImage = await canvas.loadImage(`https://miko-radio.github.io/cdn/mikocardmikocard/default-thumbnail.png`); // Gunakan gambar default atau URL alternatif
             }
 
             const thumbnailSize = Math.min(thumbnailImage.width, thumbnailImage.height);
