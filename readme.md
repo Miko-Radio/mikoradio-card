@@ -33,7 +33,7 @@ This example code will generate a music card image and save it.
 
 # __Output__
 This is the **classic** output of musicard.
-[![Discord Icon](https://cdn.discordapp.com/attachments/1190508552104718397/1194854717042479234/mikoradio.png?ex=65b1de2b&is=659f692b&hm=96c92f44381e618042b2218f0f18df4a3e595ef3ffcbebba52c5d01cd02dfc36)](https://your-discord-server-link.com)
+[![Discord Icon](https://raw.githubusercontent.com/Miko-Radio/cdn/main/mikocard/theme1/31.png)](https://your-discord-server-link.com)
 
 
 
